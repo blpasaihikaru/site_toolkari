@@ -5,14 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex">
   <link rel="stylesheet" href="styles.css">
-  <title>工具レンタルアプリ「TOOLKARI」</title>
+  <title>プライバシーポリシー | 工具レンタルアプリ「TOOLKARI」</title>
 </head>
 <body>
   <% include components/_header %>
-  <% include components/index/_hero %>
-  <% include components/index/_feature %>
-  <% include components/index/_step1 %>
-  <% include components/index/_step2 %>
+  <%- include('components/_title', {title: 'プライバシーポリシー', subTitle: 'Privacy Policy'}); %>
+  <% include components/privacy/_body %>
   <% include components/_footer %>
 </body>
 </html>
